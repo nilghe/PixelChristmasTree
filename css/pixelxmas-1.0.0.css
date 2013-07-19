@@ -1,0 +1,32 @@
+#tree-canvas {
+  height: auto;
+  min-height: 325px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.tree-row, .trunk-row { 
+  height: 16px;
+  width: auto;
+  text-align: center; }
+
+.tree-pixel, .trunk-pixel {
+  background-color: #40C700;
+  display: inline-block;
+  margin: 0 auto;
+  height: 100%;
+  width: 16px; }
+
+/* Pixel colours */
+.trunk-pixel  { background-color: #B55624; }
+.red-light    { background-color: #FF01BB; }
+.blue-light   { background-color: #27E2FF; }
+.yellow-light { background-color: #FFF100; }
+.purple-light { background-color: #B636E3; }
+.green-light  { background-color: #4A9525; }
+
+/* It's even slightly somewhat responsive! */
+@media only screen and (max-width: 480px) {
+  #tree-canvas { min-height: 200px; }
+  .tree-row:nth-last-of-type(-n+7) { display: none; }
+}

@@ -95,6 +95,7 @@ textarea {
 body {
   border-top: 5px solid #EB3B5D;
   text-align: center;
+  padding-top: 5px;
 }
 
 #merry-christmas { 
@@ -195,10 +196,10 @@ p {
 
 @media only screen and (max-width: 480px) {
   #merry-christmas { font-size: 1em; }
+  #desc { margin-top: 10px; }
   p { font-size: 1.5em; }
   #created { font-size: .7em; }
 }
-
 
 
 /* ==========================================================================

@@ -4,7 +4,7 @@ Pixel Christmas Tree
 A lightweight jQuery plugin that creates a Pixel Christmas tree with flickering lights. Spread holiday cheer with a dash of nerd on your web page or app!
 
 ## Demo
-See index.html
+See [live demo](http://pixeltree.nilghe.com)
 
 ## Setup 
 
